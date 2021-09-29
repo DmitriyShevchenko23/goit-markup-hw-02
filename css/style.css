@@ -1,0 +1,45 @@
+/* 
+основной шрифт страницы Roboto 
+шрифт логотипа Raleway 700
+
+Weight ссылок и кнопок на странице портфолио 500
+Weight абзацев 400
+Weight заголовков 700
+
+цвета
+основной цвет абзацов #757575;
+вторичный цвет заголовков, ссылок #212121;
+
+основной цвет фона #E5E5E5
+вторичный цвет фона #F5F4FA
+цвет для сылок с эфектом ховер #2196F3
+*/
+
+body {
+  font-family: roboto, sans-serif;
+}
+.logo {
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logo-web {
+  color: #2196f3;
+}
+.nav-links {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+}
+.link:hover {
+  color: #2196f3;
+}
+.nav-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+}
+.contacts:hover {
+  color: #2196f3;
+}
