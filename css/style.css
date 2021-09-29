@@ -9,6 +9,7 @@ Weight заголовков 700
 цвета
 основной цвет абзацов #757575;
 вторичный цвет заголовков, ссылок #212121;
+белый цвет для кнопок и заголовков #FFFFFF
 
 основной цвет фона #E5E5E5
 вторичный цвет фона #F5F4FA
@@ -17,29 +18,94 @@ Weight заголовков 700
 
 body {
   font-family: roboto, sans-serif;
+  color: #757575;
 }
+/* лого */
 .logo {
   font-family: raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  color: #212121;
+  text-decoration: none;
 }
 .logo-web {
   color: #2196f3;
 }
+/* навигация */
 .nav-links {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
+  color: #212121;
 }
-.link:hover {
+.link {
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
   color: #2196f3;
 }
+/* почта+телефон */
 .nav-contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
 }
-.contacts:hover {
+.mail {
+  color: #757575;
+  text-decoration: none;
+}
+.mail:hover,
+.mail:focus {
   color: #2196f3;
+}
+.tel {
+  color: #757575;
+  text-decoration: none;
+}
+.tel:hover,
+.tel:focus {
+  color: #2196f3;
+}
+
+/* секция ПРЕИМУЩЕСТВА страница "студия" */
+
+.description {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  color: #212121;
+}
+.description-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* секция ЧЕМ МЫ ЗАНИМАЕМСЯ страница "студия" */
+.jobs {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  color: #212121;
+}
+/* секция команда страница "студия" */
+
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  color: #212121;
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #212121;
+}
+.position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
 }
