@@ -68,9 +68,18 @@ body {
 .tel:focus {
   color: #2196f3;
 }
+/* герой */
 
+.hero-titel {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  color: #212121;
+}
 /* секция ПРЕИМУЩЕСТВА страница "студия" */
-
+.description-titel {
+  display: none;
+}
 .description {
   font-weight: 700;
   font-size: 14px;
@@ -108,4 +117,48 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
+}
+
+/* СТРАНИЦА портфолио */
+
+/* кнопки навигации */
+
+.button-all {
+  font-family: roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f5f4fa;
+}
+
+.button-website {
+  font-family: roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f5f4fa;
+}
+.button-app {
+  font-family: roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f5f4fa;
+}
+.button-disign {
+  font-family: roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f5f4fa;
+}
+.button-marketing {
+  font-family: roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f5f4fa;
+}
+
+/* СЕКЦИЯ портфолио */
+.portfolio-titel {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
 }
