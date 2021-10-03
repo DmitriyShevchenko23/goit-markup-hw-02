@@ -16,6 +16,13 @@ Weight заголовков 700
 цвет для сылок с эфектом ховер #2196F3
 */
 
+/* :root { 
+  --primary-text-color:#757575
+  --title-text-color:#212121
+  --accent-color:#2196F3
+  --primary-white-color:#FFFFFF
+}*/
+
 body {
   font-family: roboto, sans-serif;
   color: #757575;
@@ -38,6 +45,7 @@ body {
   font-size: 14px;
   line-height: 1.1;
   color: #212121;
+  cursor: pointer;
 }
 .link {
   text-decoration: none;
@@ -51,6 +59,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
+  cursor: pointer;
 }
 .mail {
   color: #757575;
@@ -75,6 +84,11 @@ body {
   font-size: 44px;
   line-height: 1.4;
   color: #212121;
+}
+.button-hero {
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
 }
 /* секция ПРЕИМУЩЕСТВА страница "студия" */
 .description-titel {
@@ -118,41 +132,89 @@ body {
   font-size: 16px;
   line-height: 1.2;
 }
+/* футер */
+.address {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #757575;
+}
+.address:hover,
+.address:focus {
+  color: #2196f3;
+}
 
 /* СТРАНИЦА портфолио */
 
 /* кнопки навигации */
+.buttons-filters {
+  display: none;
+}
 
 .button-all {
   font-family: roboto, sans-serif;
   font-size: 16px;
   line-height: 1.6;
+  color: #212121;
   background-color: #f5f4fa;
+  cursor: pointer;
+}
+.button-all:hover,
+.button-all:focus {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 .button-website {
   font-family: roboto, sans-serif;
   font-size: 16px;
   line-height: 1.6;
+  color: #212121;
   background-color: #f5f4fa;
+  cursor: pointer;
+}
+.button-website:hover,
+.button-website:focus {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 .button-app {
   font-family: roboto, sans-serif;
   font-size: 16px;
   line-height: 1.6;
+  color: #212121;
   background-color: #f5f4fa;
+  cursor: pointer;
+}
+.button-app:hover,
+.button-app:focus {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 .button-disign {
   font-family: roboto, sans-serif;
   font-size: 16px;
   line-height: 1.6;
+  color: #212121;
   background-color: #f5f4fa;
+  cursor: pointer;
+}
+.button-disign:hover,
+.button-disign:focus {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 .button-marketing {
   font-family: roboto, sans-serif;
   font-size: 16px;
   line-height: 1.6;
+  color: #212121;
   background-color: #f5f4fa;
+  cursor: pointer;
+}
+.button-marketing:hover,
+.button-marketing:focus {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 /* СЕКЦИЯ портфолио */
