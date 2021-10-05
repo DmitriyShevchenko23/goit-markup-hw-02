@@ -3,8 +3,7 @@
 шрифт логотипа Raleway 700
 
 Weight ссылок и кнопок на странице портфолио 500
-Weight абзацев 400
-Weight заголовков 700
+Weight заголовков 700 900
 
 цвета
 основной цвет абзацов #757575;
@@ -16,12 +15,12 @@ Weight заголовков 700
 цвет для сылок с эфектом ховер #2196F3
 */
 
-/* :root { 
-  --primary-text-color:#757575
-  --title-text-color:#212121
-  --accent-color:#2196F3
-  --primary-white-color:#FFFFFF
-}*/
+:root { 
+  --title-text-color:#212121;
+  --accent-color:#2196F3;
+  --primary-white-color:#FFFFFF;
+  --bg-white-color:#f5f4fa;
+}
 
 body {
   font-family: roboto, sans-serif;
@@ -33,26 +32,27 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  color: #212121;
+  color: var(--title-text-color);
   text-decoration: none;
 }
 .logo-web {
-  color: #2196f3;
+  color:var(--accent-color);
 }
 /* навигация */
 .nav-links {
-  font-weight: 500;
+ text-decoration: none;
+ color: #212121 
+}
+
+.link {
+   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
-  color: #212121;
   cursor: pointer;
-}
-.link {
-  text-decoration: none;
 }
 .link:hover,
 .link:focus {
-  color: #2196f3;
+  color:var(--accent-color);
 }
 /* почта+телефон */
 .nav-contacts {
@@ -67,7 +67,7 @@ body {
 }
 .mail:hover,
 .mail:focus {
-  color: #2196f3;
+  color:var(--accent-color);
 }
 .tel {
   color: #757575;
@@ -75,7 +75,7 @@ body {
 }
 .tel:hover,
 .tel:focus {
-  color: #2196f3;
+  color:var(--accent-color);
 }
 /* герой */
 
@@ -83,11 +83,11 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .button-hero {
-  color: #ffffff;
-  background-color: #2196f3;
+  color:var(--primary-white-color);
+  background-color:var(--accent-color);
   cursor: pointer;
 }
 /* секция ПРЕИМУЩЕСТВА страница "студия" */
@@ -98,7 +98,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .description-text {
   font-weight: 400;
@@ -111,7 +111,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  color: #212121;
+  color: var(--title-text-color);
 }
 /* секция команда страница "студия" */
 
@@ -119,13 +119,13 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .position {
   font-weight: 400;
@@ -140,7 +140,7 @@ body {
 }
 .address:hover,
 .address:focus {
-  color: #2196f3;
+  color:var(--accent-color);
 }
 
 /* СТРАНИЦА портфолио */
@@ -154,67 +154,67 @@ body {
   font-family: roboto, sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  color: #212121;
-  background-color: #f5f4fa;
+  color: var(--title-text-color);
+  background-color:var(--bg-white-color);
   cursor: pointer;
 }
 .button-all:hover,
 .button-all:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--primary-white-color);
+  background-color:var(--accent-color);
 }
 
 .button-website {
   font-family: roboto, sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  color: #212121;
-  background-color: #f5f4fa;
+  color: var(--title-text-color);
+  background-color:var(--bg-white-color);
   cursor: pointer;
 }
 .button-website:hover,
 .button-website:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--primary-white-color);
+  background-color:var(--accent-color);
 }
 .button-app {
   font-family: roboto, sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  color: #212121;
-  background-color: #f5f4fa;
+  color: var(--title-text-color);
+  background-color:var(--bg-white-color);
   cursor: pointer;
 }
 .button-app:hover,
 .button-app:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--primary-white-color);
+  background-color:var(--accent-color);
 }
 .button-disign {
   font-family: roboto, sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  color: #212121;
-  background-color: #f5f4fa;
+  color: var(--title-text-color);
+  background-color:var(--bg-white-color);
   cursor: pointer;
 }
 .button-disign:hover,
 .button-disign:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--primary-white-color);
+  background-color:var(--accent-color);
 }
 .button-marketing {
   font-family: roboto, sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  color: #212121;
-  background-color: #f5f4fa;
+  color: var(--title-text-color);
+  background-color:var(--bg-white-color);
   cursor: pointer;
 }
 .button-marketing:hover,
 .button-marketing:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--primary-white-color);
+  background-color:var(--accent-color);
 }
 
 /* СЕКЦИЯ портфолио */
@@ -222,7 +222,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 /* СТРАНИЦА Контакты *
